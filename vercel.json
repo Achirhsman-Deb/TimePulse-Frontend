@@ -1,0 +1,80 @@
+{
+    "rewrites": [
+        {
+            "source": "/api/(.*)",
+            "destination": "https://trendify-backend-0pe5.onrender.com/$1"
+        },
+        {
+            "source": "/",
+            "destination": "/"
+        },
+        {
+            "source": "/search",
+            "destination": "/search"
+        },
+        {
+            "source": "/cart",
+            "destination": "/cart"
+        },
+        {
+            "source": "/product/:slug",
+            "destination": "/product/:slug"
+        },
+        {
+            "source": "/category/:slug",
+            "destination": "/category/:slug"
+        },
+        {
+            "source": "/Login",
+            "destination": "/Login"
+        },
+        {
+            "source": "/Forgot-Password",
+            "destination": "/Forgot-Password"
+        },
+        {
+            "source": "/Dashboard",
+            "destination": "/Dashboard"
+        },
+        {
+            "source": "/Dashboard/Profile",
+            "destination": "/Dashboard/Profile"
+        },
+        {
+            "source": "/Dashboard/Orders",
+            "destination": "/Dashboard/Orders"
+        },
+        {
+            "source": "/Admin-Dashboard",
+            "destination": "/Admin-Dashboard"
+        },
+        {
+            "source": "/Admin-Dashboard/CreateCatagory",
+            "destination": "/Admin-Dashboard/CreateCatagory"
+        },
+        {
+            "source": "/Admin-Dashboard/CreateProduct",
+            "destination": "/Admin-Dashboard/CreateProduct"
+        },
+        {
+            "source": "/Admin-Dashboard/Products",
+            "destination": "/Admin-Dashboard/Products"
+        },
+        {
+            "source": "/Admin-Dashboard/Products/:slug",
+            "destination": "/Admin-Dashboard/Products/:slug"
+        },
+        {
+            "source": "/Admin-Dashboard/Users",
+            "destination": "/Admin-Dashboard/Users"
+        },
+        {
+            "source": "/Admin-Dashboard/Orders",
+            "destination": "/Admin-Dashboard/Orders"
+        },
+        {
+            "source": "/About",
+            "destination": "/About"
+        }
+    ]
+}
