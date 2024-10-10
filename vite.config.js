@@ -8,7 +8,7 @@ export default defineConfig({
         host: true, // Allow network access
         proxy: {
           '/api': {
-            target: 'http://localhost:8080',
+            target: 'https://timepulse-backend.onrender.com/',
             changeOrigin: true,
             rewrite: (path) => path.replace(/^\/api/, ''), // Optional: Removes the /api prefix
           },
